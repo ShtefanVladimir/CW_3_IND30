@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cw-3"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Shtefan <vladimir.shtefan@skyeng.ru>"]
+readme = "README.md"
+packages = [{include = "cw_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
