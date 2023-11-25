@@ -8,14 +8,14 @@ class Foo:
         self.set_data()
         return self.name
 
-    @staticmethod
-    def calculate_numbers(x, y):
-        return x + y
-
     @classmethod
     def set_data(cls):
         cls.data.append("sdfsdfsdf")
         Foo("Vova")
+
+
+def calculate_numbers(x, y):
+    return x + y
 
 
 Foo.set_data()
